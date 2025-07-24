@@ -44,6 +44,7 @@
    ```bash
    cd [folder-proyek]
    pip install yara-python
+   pip install python-dotenv
    ```
 5. **Konfigurasi**
 - Salin/rename file .env.example menjadi .env
