@@ -1,75 +1,69 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Mochammad Taslam Gustino Prianto  
+**NRP**: 5025211011  
+**Judul TA**: Forensik Malware dengan Yara Rules  
+**Dosen Pembimbing**: Hudan Studiawan  
+**Dosen Ko-pembimbing**: Baskoro Adi Pratomo
 
 ---
 
 ## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+[![Demo Aplikasi](https://avatars.githubusercontent.com/u/11882902?v=4)](https://www.youtube.com/watch?v=ScaLC8fDzLo)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
 
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
 
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
 - Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+  - Python 3.7+
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-gustino7.git
    ```
-2. **Instalasi Dependensi**
+2. **Membuat Virtual Environment**
+   ```bash
+   python -m venv /path/to/new/virtual/environment
+   ```
+3. **Aktifasi Virtual Environment**
+   **Windows**
+   ```bash
+   \\path\\to\\venv\\Scripts\\Activate.ps1
+   ```
+   **Linux**
+   ```bash
+   source /path/to/venv/bin/activate
+   ```
+4. **Instalasi Dependensi**
    ```bash
    cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   pip install yara-python
    ```
-3. **Konfigurasi**
+5. **Konfigurasi**
 - Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
+- Isi variabel lingkungan PATH_MALWARE dengan directory yang ingin Anda scan
+6. **Jalankan Aplikasi**
    ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
+   python implementasi_deteksi.py  
    ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
 
 ---
 
 ## 📚 Dokumentasi Tambahan
 
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
-
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+- [![Dokumentasi Yara Rules]](https://yara.readthedocs.io/en/stable/yarapython.html)
+- [![Dokumentasi Penelitian]](https://github.com/gustino7/Tugas-Akhir-Yara-Rules)
 
 ---
 
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: [mtgpmn2013@gmail.com]
+- Pembimbing Utama: [hudan@if.its.ac.id]
