@@ -31,7 +31,7 @@
    ```bash
    python -m venv /path/to/new/virtual/environment
    ```
-3. **Aktifasi Virtual Environment**
+3. **Aktifasi Virtual Environment**  
    **Windows**
    ```bash
    \\path\\to\\venv\\Scripts\\Activate.ps1
